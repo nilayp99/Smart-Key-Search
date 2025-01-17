@@ -1342,21 +1342,17 @@ class PDFViewer(QWidget):
 
         self.layout = QVBoxLayout()
 
- 
-
-        #--Credit label DAO-----------------------------------------------------------------------------#
+         #--Credit label DAO-----------------------------------------------------------------------------#
 
  
 
-        self.credit_label = QPushButton('Conceptualized and Developed by DAO India', self)
+        self.credit_label = QPushButton('https://github.com/nilayp99/Smart-Key-Search', self)
 
         self.credit_label.setStyleSheet("font-weight: bold")
 
         self.credit_label.setFont(QFont('Arial', 7))
 
         self.layout.addWidget(self.credit_label)
-
- 
 
         #-----------------------------------------------------------------------------------------------#
 
@@ -1683,9 +1679,9 @@ class PDFHighlighter(QMainWindow):
 
  
 
-        self.credit_label = VerticalLabel("For any queries contact | aaditya.shriram.dautkhane@hsbc.co.in | nilay.patel@hsbc.co.in | DAO - India", self)
+        self.credit_label = VerticalLabel("       Original | https://github.com/nilayp99/Smart-Key-Search")
 
-        self.credit_label.setFixedSize(QSize(12, 800))
+        self.credit_label.setFixedSize(QSize(13, 800))
 
         self.layout.addWidget(self.credit_label, alignment=Qt.AlignRight | Qt.AlignBottom)
 
